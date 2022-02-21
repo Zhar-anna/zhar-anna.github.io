@@ -1,0 +1,41 @@
+
+.content h2 {
+color: steelBlue;
+
+}
+.content h1 {
+color: steelBlue;
+
+}
+.content {
+background-color: aliceBlue;
+}
+h1 {
+text-align: center;
+}
+h2 {
+text-align: center;
+}
+h3 {
+text-align: center;
+}
+#column-left {
+width: 600px;
+ float: left;
+height:180px;
+margin: 5px 5px 5px 5px;
+position: absolute;
+left: 10%;
+}
+#column-right {
+ width: 800px;
+ float: right;
+height:220px;
+margin: 5px 5px 5px 5px;
+position: absolute;
+right: 10%;
+
+}
+
+
+/https://learn.javascript.ru/position
