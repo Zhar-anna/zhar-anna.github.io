@@ -1,41 +1,50 @@
 
 .content h2 {
-color: steelBlue;
+color: #475876;
 
 }
 .content h1 {
-color: steelBlue;
+color: #475876;
 
 }
 .content {
-background-color: aliceBlue;
+background-color: #E5E8EE;
+padding: 10px;
 }
-h1 {
-text-align: center;
-}
-h2 {
-text-align: center;
-}
+
+h1,
+h2,
 h3 {
 text-align: center;
 }
-#column-left {
+
+
+.display-flex {
+margin: 15px;
+padding: 10px;
+display: flex;
+
+justify-content: center;
+align-content: center;
+
+}
+
+header img {
+width: 200px;
+height: auto;
+position: relative;
+left: 115px;
+}
+
+.column-left {
 width: 600px;
- float: left;
-height:180px;
-margin: 5px 5px 5px 5px;
-position: absolute;
-left: 10%;
-}
-#column-right {
- width: 800px;
- float: right;
-height:220px;
-margin: 5px 5px 5px 5px;
-position: absolute;
-right: 10%;
+margin: 15px;
 
 }
 
+.column-right {
+margin: 15px;
+width: 800px;
 
-/https://learn.javascript.ru/position
+}
+
